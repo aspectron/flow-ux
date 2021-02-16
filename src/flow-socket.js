@@ -37,9 +37,9 @@ export class FlowSocket {
 
 		switch(this.transport) {
 			case 'native': {
-				const url = this.options.origin.replace(/^http/,'ws')+this.options.path;
+				const url = this.options.origin.replace(/^http/,'ws')+this.options.path+'/websocket';
 				// console.log('WS connecting to',url);
-				this.socket_impl = new WebSocket(this.options.origin.replace(/^http/,'ws')+this.options.path);
+				this.socket_impl = new WebSocket(this.options.origin.replace(/^http/,'ws')+this.options.path+'/websocket');
 			} break;
 
 			case 'sockjs': {
