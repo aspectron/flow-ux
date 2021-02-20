@@ -16,7 +16,7 @@ export class FlowSocket {
 
 		this.timeout  = this.options.timeout;
 		this.id = this.options.id;
-		this.transport = this.options.transport || 'native';
+		this.transport = this.options.transport || 'sockjs';
 
 		this.init();
 	}
