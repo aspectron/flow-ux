@@ -214,6 +214,7 @@ let config = {
 		{"title":"Norwegian", "locale": "no" },
 		{"title":"Polski", "locale": "pl" },
 		{"title":"PortuguÃªs", "locale": "pt" },
+		{"title":"PortuguÃªs (Brazil)", "locale": "pt_BR" },
 		{"title":"Romanian", "locale": "ro" },
 		{"title":"Русский", "locale": "ru" },
 		{"title":"Slovak", "locale": "sk" },
